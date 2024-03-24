@@ -49,7 +49,7 @@ if(pensionalPay <= tierIILowestLimit){
     return tierIILowestLimit * tierIRate;
 }
 }
-//calc our net salary
+//calculation of the  net salary
 function calculateNetSalary(basicSalary, benefits){
     let grossSalary = basicSalary + benefits;
     let tax = calculateTax(grossSalary);
@@ -78,7 +78,7 @@ function getUserInput(question){
     });
  });
 }
- //function to run the program
+ //we run the program
  async function run(){
     //get user input for basic salary
     const basicSalary = await getUserInput("Your basic salary = ");
