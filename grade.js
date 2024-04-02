@@ -20,4 +20,4 @@ function studentMarks(marks){
         }
         
     }
-    studentMarks(39)
+    studentMarks()
